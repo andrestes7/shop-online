@@ -1,0 +1,18 @@
+.main-container {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px #888888;
+}
+.content{
+    display: flex;
+}
+.types-container{
+    min-width: 200px;
+}
+p{
+    color: brown;
+    cursor: pointer;
+}
+p:hover{
+    text-decoration: underline;
+}

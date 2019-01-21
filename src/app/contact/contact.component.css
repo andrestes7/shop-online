@@ -1,0 +1,12 @@
+div{
+    margin: 10px;
+}
+textarea{
+    width: 90px;
+}
+button{
+    background: brown;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

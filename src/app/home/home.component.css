@@ -1,0 +1,12 @@
+.main-container{
+    padding: 10px;
+}
+h3 {
+    color: darkred;
+    font-size: 25px;
+}
+.text-conainer {
+    letter-spacing: 1 1px;
+    font-size: 16px;
+    text-align: justify;
+}

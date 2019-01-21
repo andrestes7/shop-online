@@ -1,0 +1,9 @@
+div {
+    box-shadow: 1px 1px 10px #888888;
+    padding: 10px;
+    margin: 10px; 
+}
+
+.product{
+    cursor: pointer;
+}

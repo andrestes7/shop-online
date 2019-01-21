@@ -1,0 +1,29 @@
+<div class='main-container'>
+  <h3>Products</h3>
+  <div>
+    the number of productes clicked is: {{increment}}
+  </div>
+  <div class='container'>
+  <span class='types-container'>
+      <p (click)="getAllProducts()">
+          All products
+        </p>
+    <p (click)="getFoodProducts()">
+      Food
+    </p>
+    <p (click)="getClothesProducts()">
+      Clothes
+    </p>
+    <p (click)="getElectronicsProducts()">
+      Electronics
+    </p>
+  </span>
+
+  <span class='products-container'>
+    <div *ngFor="let products of productsToShow">
+         <app-product [product]="products" (click)="incrementVariable()">
+         </app-product>
+    </div>
+  </span>
+  </div>
+</div>

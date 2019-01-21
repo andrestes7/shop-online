@@ -1,0 +1,15 @@
+div {
+    box-shadow: 1px 1px 10px #888888;
+    padding: 10px;
+    border-radius: 5px;
+    background: #33cc33;
+}
+span{
+    padding: 5px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+span:hover{
+    box-shadow: 1px 1px 10px #ffffff;
+    outline: none;
+}
